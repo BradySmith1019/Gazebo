@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="GazeboCalculator2.Page1">
+    <ContentPage.Content>
+        <StackLayout Margin="40, 70, 40, 40">
+            <StackLayout Orientation="Horizontal">
+                <Label Text="BMV - Common - Vertical:"
+                       FontSize="Medium"
+                       HorizontalOptions="Start"
+                       VerticalOptions="Start"/>
+                <Label x:Name="valueNineteen"
+                       Text="Value4"
+                       FontSize="Medium"
+                       HorizontalOptions="EndAndExpand"
+                       VerticalOptions="Start"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Label Text="BMV - Common - Horizontal:"
+                       FontSize="Medium"
+                       HorizontalOptions="Start"
+                       VerticalOptions="Start"/>
+                <Label x:Name="valueTwenty"
+                       Text="Value4"
+                       FontSize="Medium"
+                       HorizontalOptions="EndAndExpand"
+                       VerticalOptions="Start"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Label Text="BMV - Hip - Horizontal:"
+                       FontSize="Medium"
+                       HorizontalOptions="Start"
+                       VerticalOptions="Start"/>
+                <Label x:Name="valueTwentyOne"
+                       Text="Value4"
+                       FontSize="Medium"
+                       HorizontalOptions="EndAndExpand"
+                       VerticalOptions="Start"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Label Text="BMV - Hip - Vertical:"
+                       FontSize="Medium"
+                       HorizontalOptions="Start"
+                       VerticalOptions="Start"/>
+                <Label x:Name="valueTwentyTwo"
+                       Text="Value4"
+                       FontSize="Medium"
+                       HorizontalOptions="EndAndExpand"
+                       VerticalOptions="Start"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Label Text="lCq:"
+                       FontSize="Medium"
+                       HorizontalOptions="Start"
+                       VerticalOptions="Start"/>
+                <Label x:Name="valueTwentyThree"
+                       Text="Value4"
+                       FontSize="Medium"
+                       HorizontalOptions="EndAndExpand"
+                       VerticalOptions="Start"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Label Text="lC:"
+                       FontSize="Medium"
+                       HorizontalOptions="Start"
+                       VerticalOptions="Start"/>
+                <Label x:Name="valueTwentyFour"
+                       Text="Value4"
+                       FontSize="Medium"
+                       HorizontalOptions="EndAndExpand"
+                       VerticalOptions="Start"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Label Text="RH:"
+                       FontSize="Medium"
+                       HorizontalOptions="Start"
+                       VerticalOptions="Start"/>
+                <Label x:Name="valueTwentyFive"
+                       Text="Value4"
+                       FontSize="Medium"
+                       HorizontalOptions="EndAndExpand"
+                       VerticalOptions="Start"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Label Text="lH:"
+                       FontSize="Medium"
+                       HorizontalOptions="Start"
+                       VerticalOptions="Start"/>
+                <Label x:Name="valueTwentySix"
+                       Text="Value4"
+                       FontSize="Medium"
+                       HorizontalOptions="EndAndExpand"
+                       VerticalOptions="Start"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Label Text="iRW:"
+                       FontSize="Medium"
+                       HorizontalOptions="Start"
+                       VerticalOptions="Start"/>
+                <Label x:Name="valueTwentySeven"
+                       Text="Value4"
+                       FontSize="Medium"
+                       HorizontalOptions="EndAndExpand"
+                       VerticalOptions="Start"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Label Text="RW (0 bkg):"
+                       FontSize="Medium"
+                       HorizontalOptions="Start"
+                       VerticalOptions="Start"/>
+                <Label x:Name="valueTwentyEight"
+                       Text="Value4"
+                       FontSize="Medium"
+                       HorizontalOptions="EndAndExpand"
+                       VerticalOptions="Start"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Label Text="el C:"
+                       FontSize="Medium"
+                       HorizontalOptions="Start"
+                       VerticalOptions="Start"/>
+                <Label x:Name="valueTwentyNine"
+                       Text="Value4"
+                       FontSize="Medium"
+                       HorizontalOptions="EndAndExpand"
+                       VerticalOptions="Start"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Label Text="el E:"
+                       FontSize="Medium"
+                       HorizontalOptions="Start"
+                       VerticalOptions="Start"/>
+                <Label x:Name="valueThirty"
+                       Text="Value4"
+                       FontSize="Medium"
+                       HorizontalOptions="EndAndExpand"
+                       VerticalOptions="Start"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Button x:Name="pageOne"
+                Text="&lt;- Page 1"
+                HorizontalOptions="StartAndExpand"
+                VerticalOptions="EndAndExpand"
+                IsEnabled="True"
+                Clicked="pageOne_Clicked"/>
+            </StackLayout>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,224 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="GazeboCalculator2.GoContent">
+    <ContentPage.Content>
+        <StackLayout Margin="40, 70, 40, 40">
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Common Rafter Cut Length:"
+                       FontSize="Medium"
+                       HorizontalOptions="Start"
+                       VerticalOptions="Start"/>
+                <Label x:Name="valueOne" 
+                       Text="Value1"
+                       FontSize="Medium"
+                       HorizontalOptions="EndAndExpand"
+                       VerticalOptions="Start"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Common Rafter Cut Angle:"
+                       FontSize="Medium"
+                       HorizontalOptions="Start"
+                       VerticalOptions="Start"/>
+                <Label x:Name="valueTwo"
+                       Text="Value2"
+                       FontSize="Medium"
+                       HorizontalOptions="EndAndExpand"
+                       VerticalOptions="End"/>
+            </StackLayout>
+
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Hip Rafter Cut Length:"
+                       FontSize="Medium"
+                       HorizontalOptions="Start"
+                       VerticalOptions="Start"/>
+                <Label x:Name="valueThree" 
+                       Text="Value3"
+                       FontSize="Medium"
+                       HorizontalOptions="EndAndExpand"
+                       VerticalOptions="Start"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Hip Rafter Plum Cut:"
+                       FontSize="Medium"
+                       HorizontalOptions="Start"
+                       VerticalOptions="Start"/>
+                <Label x:Name="valueFour"
+                       Text="Value4"
+                       FontSize="Medium"
+                       HorizontalOptions="EndAndExpand"
+                       VerticalOptions="Start"/>
+            </StackLayout>
+
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Sheathing Saw Blade Angle:"
+                       FontSize="Medium"
+                       HorizontalOptions="Start"
+                       VerticalOptions="Start"/>
+                <Label x:Name="valueFive" 
+                       Text="Value3"
+                       FontSize="Medium"
+                       HorizontalOptions="EndAndExpand"
+                       VerticalOptions="Start"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Sheathing Plumb Cut:"
+                       FontSize="Medium"
+                       HorizontalOptions="Start"
+                       VerticalOptions="Start"/>
+                <Label x:Name="valueSix"
+                       Text="Value4"
+                       FontSize="Medium"
+                       HorizontalOptions="EndAndExpand"
+                       VerticalOptions="Start"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Length of Polygon Side:"
+                       FontSize="Medium"
+                       HorizontalOptions="Start"
+                       VerticalOptions="Start"/>
+                <Label x:Name="valueSeven"
+                       Text="Value4"
+                       FontSize="Medium"
+                       HorizontalOptions="EndAndExpand"
+                       VerticalOptions="Start"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Ridge Piece Width:"
+                       FontSize="Medium"
+                       HorizontalOptions="Start"
+                       VerticalOptions="Start"/>
+                <Label x:Name="valueEight"
+                       Text="Value4"
+                       FontSize="Medium"
+                       HorizontalOptions="EndAndExpand"
+                       VerticalOptions="Start"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Ridge Post Height:"
+                       FontSize="Medium"
+                       HorizontalOptions="Start"
+                       VerticalOptions="Start"/>
+                <Label x:Name="valueNine"
+                       Text="Value4"
+                       FontSize="Medium"
+                       HorizontalOptions="EndAndExpand"
+                       VerticalOptions="Start"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Label Text="HAP:"
+                       FontSize="Medium"
+                       HorizontalOptions="Start"
+                       VerticalOptions="Start"/>
+                <Label x:Name="valueTen"
+                       Text="Value4"
+                       FontSize="Medium"
+                       HorizontalOptions="EndAndExpand"
+                       VerticalOptions="Start"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Ridge Backing Thickness:"
+                       FontSize="Medium"
+                       HorizontalOptions="Start"
+                       VerticalOptions="Start"/>
+                <Label x:Name="valueEleven"
+                       Text="Value4"
+                       FontSize="Medium"
+                       HorizontalOptions="EndAndExpand"
+                       VerticalOptions="Start"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Rho:"
+                       FontSize="Medium"
+                       HorizontalOptions="Start"
+                       VerticalOptions="Start"/>
+                <Label x:Name="valueTwelve"
+                       Text="Value4"
+                       FontSize="Medium"
+                       HorizontalOptions="EndAndExpand"
+                       VerticalOptions="Start"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Label Text="fR Slope Phi:"
+                       FontSize="Medium"
+                       HorizontalOptions="Start"
+                       VerticalOptions="Start"/>
+                <Label x:Name="valueThirteen"
+                       Text="Value4"
+                       FontSize="Medium"
+                       HorizontalOptions="EndAndExpand"
+                       VerticalOptions="Start"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Label Text="iR Slope Alpha:"
+                       FontSize="Medium"
+                       HorizontalOptions="Start"
+                       VerticalOptions="Start"/>
+                <Label x:Name="valueFourteen"
+                       Text="Value4"
+                       FontSize="Medium"
+                       HorizontalOptions="EndAndExpand"
+                       VerticalOptions="Start"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Q:"
+                       FontSize="Medium"
+                       HorizontalOptions="Start"
+                       VerticalOptions="Start"/>
+                <Label x:Name="valueFifteen"
+                       Text="Value4"
+                       FontSize="Medium"
+                       HorizontalOptions="EndAndExpand"
+                       VerticalOptions="Start"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Rho2:"
+                       FontSize="Medium"
+                       HorizontalOptions="Start"
+                       VerticalOptions="Start"/>
+                <Label x:Name="valueSixteen"
+                       Text="Value4"
+                       FontSize="Medium"
+                       HorizontalOptions="EndAndExpand"
+                       VerticalOptions="Start"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Label Text="fR Slope Phi 2:"
+                       FontSize="Medium"
+                       HorizontalOptions="Start"
+                       VerticalOptions="Start"/>
+                <Label x:Name="valueSeventeen"
+                       Text="Value4"
+                       FontSize="Medium"
+                       HorizontalOptions="EndAndExpand"
+                       VerticalOptions="Start"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Label Text="iR Slope Alpha 2:"
+                       FontSize="Medium"
+                       HorizontalOptions="Start"
+                       VerticalOptions="Start"/>
+                <Label x:Name="valueEighteen"
+                       Text="Value4"
+                       FontSize="Medium"
+                       HorizontalOptions="EndAndExpand"
+                       VerticalOptions="Start"/>
+            </StackLayout>
+            
+            <StackLayout Orientation="Horizontal">
+                <Button x:Name="pageTwo"
+                Text="Page 2 ->"
+                HorizontalOptions="EndAndExpand"
+                VerticalOptions="EndAndExpand"
+                IsEnabled="True"
+                Clicked="pageTwo_Clicked"/>
+            </StackLayout>
+            <!--<Image Source="steepangle.jpg"
+                   HorizontalOptions="CenterAndExpand"
+                   VerticalOptions="CenterAndExpand"/>-->
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="GazeboCalculator2.MainPage">
+
+    <StackLayout Margin="20,35,20,20">
+        <!-- Place new controls here -->
+        <Label Text="Number of sides:"
+               HorizontalOptions="Start"
+               VerticalOptions="Start"
+               FontSize="Large"/>
+        <Picker x:Name="sidesPicker"
+                VerticalOptions="Center"
+                SelectedIndexChanged="onNumSidesPicked">
+            <Picker.ItemsSource>
+                <x:Array Type="{x:Type x:Int32}">
+                    <x:Int32>5</x:Int32>
+                    <x:Int32>6</x:Int32>
+                    <x:Int32>8</x:Int32>
+                    <x:Int32>9</x:Int32>
+                    <x:Int32>10</x:Int32>
+                    <x:Int32>12</x:Int32>
+                </x:Array>
+            </Picker.ItemsSource>
+        </Picker>
+
+        <Label Text="Length of side (inches. Must be between 72-144 and a whole number):"
+               HorizontalOptions="Start"
+               VerticalOptions="Start"
+               FontSize="Large"/>
+        <Entry x:Name="lengthSidePicker"
+               Completed="OnSideLengthCompleted"
+               IsTabStop="True"
+               Focused="onSideLengthFocused"
+               Unfocused="onSideLengthUnfocused"
+               Keyboard="Numeric"/>
+
+        <!--><Picker x:Name="lengthSidePicker"
+                Title="Please select the length of the side (inches. Must be between 72 - 144 and a whole number)"
+                VerticalOptions="CenterAndExpand"
+                SelectedIndexChanged="onLengthSidePicked">
+            <Picker.ItemsSource>
+                <x:Array Type="{x:Type x:Int32}">
+                    <x:Int32>72</x:Int32>
+                    <x:Int32>73</x:Int32>
+                    <x:Int32>74</x:Int32>
+                    <x:Int32>75</x:Int32>
+                    <x:Int32>144</x:Int32>
+                    <x:Int32>11</x:Int32>
+                    <x:Int32>12</x:Int32>
+                </x:Array>
+            </Picker.ItemsSource>
+        </Picker>-->
+
+        <!-- Find out this missing value -->
+        <!-- Get rid of top plate entry-->
+        <!--<Entry x:Name="topPlateEntry"
+               Placeholder="Height of Top Plate (inches)"
+               Completed="OnTopPlateCompleted"
+               IsTabStop="True"
+               Focused="OnTopPlateFocused"/>-->
+
+        <Label Text="Please select the angle of the roof:"
+               FontSize="Large"/>
+
+        <!-- Need images for last input buttons -->
+        <ImageButton Source="steepangle.jpg"
+                     HorizontalOptions="Center"
+                     VerticalOptions="StartAndExpand"
+                     CornerRadius="10"
+                     BorderWidth="2"
+                     BorderColor="LightGray"
+                     BackgroundColor="LightGray"
+                     Clicked="onSteepAngleClick"/>
+
+        <ImageButton Source="steepangletwo.jpg"
+                     HorizontalOptions="Center"
+                     VerticalOptions="CenterAndExpand"
+                     CornerRadius="10"
+                     BorderWidth="2"
+                     BorderColor="LightGray"
+                     BackgroundColor="LightGray"
+                     Clicked="onSteepAngleTwoClick"/>
+
+        <ImageButton Source="steepanglethree.jpg"
+                     HorizontalOptions="Center"
+                     VerticalOptions="EndAndExpand"
+                     CornerRadius="10"
+                     BorderWidth="2"
+                     BorderColor="LightGray"
+                     BackgroundColor="LightGray"
+                     Clicked="onSteepAngleThreeClick"/>
+
+        <StackLayout Orientation="Horizontal">
+            <Button x:Name="helpButton"
+                Text="Help"
+                HorizontalOptions="StartAndExpand"
+                VerticalOptions="Center"
+                Clicked="onHelpClicked"/>
+            <Button x:Name="goButton"
+                Text="Go"
+                HorizontalOptions="EndAndExpand"
+                VerticalOptions="EndAndExpand"
+                IsEnabled="False"
+                Clicked="onGoClicked"/>
+        </StackLayout>
+    </StackLayout>
+</ContentPage>
